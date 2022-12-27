@@ -1,0 +1,141 @@
+.container {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 48px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "area1"
+      "area2"
+      "area-7";
+    width: 930px;
+    height: 944px;
+    margin: 40px 67px 456px;
+  }
+  
+  .area1 {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 50px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". .";
+    grid-area: area1;
+    width: 930px;
+    height: 200px;
+  }
+
+  #title{
+    border: 2px solid;
+    width: 416px;
+    height: 196px;
+    display: flex;
+    justify-content: center;
+  }
+h2{
+  margin-top: 3.5em;
+  font-size: 25px;
+}
+
+  #img1{
+    width: 420px;
+    height: 200px;
+    margin-left: 10px;
+    
+  }
+  
+  .area2 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 35px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "area3 area5 area6"
+      "area4 area5 area6";
+    grid-area: area2;
+  }
+  
+  .area3 {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 48px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". .";
+    grid-area: area3;
+  }
+  
+  .area4 { grid-area: area4; }
+  
+  .area5 { grid-area: area5; }
+
+  #img2{
+    width: 150px;
+    height: 200px;
+    border: 2px solid;
+  }
+  #img3{
+    width: 150px;
+    height: 200px;
+    border: 2px solid;
+  }
+  #img4{
+    width: 347px;
+    height: 200px;
+    margin-top: 24px;
+    border: 2px solid;
+  }
+  #img5{
+    width: 335;
+    height: 448px;
+    border: 2px solid;
+  }
+  
+  .area6 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 48px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      ".";
+    grid-area: area6;
+  }
+  #img6{
+    width: 150px;
+    height: 200px;
+    
+    border: 2px solid;
+  }
+  #img7{
+    width: 150px;
+    height: 200px;
+    
+    border: 2px solid;
+  }
+  .area-7 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 35px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . .";
+    grid-area: area-7;
+  }
+#img8{
+  width: 150px;
+  height: 200px;
+  border: 2px solid;
+}
+
+#img9{
+  width: 150px;
+  height: 200px;
+  border: 2px solid;
+}
+
+#img10{
+  width: 520px;
+  height: 200px;
+  margin-right: 13px;
+  border: 2px solid;
+}
